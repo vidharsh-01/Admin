@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- NAV START -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- brand will go to left orelse always right -->
+            <span class="navbar-brand">BIT</span>
+            <a href="login.html" class="btn btn-primary btn-sm bg-primary text-white ">Logout</a>
+        </div>
+    </nav>
+    <!-- NAV ENDS -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- SIDEBAR STARTS -->
+             <div class="col-md-2 bg-light vh-100 p-3">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Student</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="department.html">Department</a></li>
+                </ul>
+
+             </div>
+
+            <!-- SIDEBAR ENDS -->
+             <div class="col-md-10 p-4">
+                <h3>Students</h3>
+                <div class="container">
+        
+                <form action="">
+                    
+                    <label for="name" class="form-label">Student Name</label>
+                    <input type="text" class="form-control">
+                    <label for="Register"class=form-label>Register </label>
+                    <input type="text" class="form-control">
+                    <label for="email" class="form-label">student email</label>
+                    <input type="email" class="form-control">
+                    <label for ="phno" class="form-label">student phone number</label>
+                    <input type="number" class="form-control mb-3">
+                    <button type="submit" class="btn btn-success ">Save</button>
+            
+                    
+                    
+                </form>
+                </div>
+             </div>
+
+            <div class="row mt-3">
+            <div class="col-8">
+                <h5>students list </h5>
+                <table class="table table-hover">
+                    <tr>
+                        <th>S.no</th>
+                        <th >Student name</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td >vidhu</span></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>thanisha</span></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>sara</td>
+                    </tr>
+
+               </table>
+
+            </div>
+        </div>
+</body>
+</html>
